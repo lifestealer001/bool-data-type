@@ -7,5 +7,12 @@
   Returns:
       bool
   */
+  bool func(int a,b){
+    bool s;
+    s = a == b;
+    return(s);
+  }
 
-void main() {}
+void main() {
+  print(func(5,5));
+}
